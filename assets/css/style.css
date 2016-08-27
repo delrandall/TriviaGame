@@ -1,0 +1,131 @@
+body {
+	/*background: url('http://nicolaslevy.net/links_references/librairies/2jfi1s9.gif') no-repeat center center fixed;*/
+	/*background: url('http://i717.photobucket.com/albums/ww173/prestonjjrtr/Smileys/Harry%20Potter/poltergiestani20sample.gif') no-repeat center center fixed;*/
+	/*Image from:  http://s717.photobucket.com/user/prestonjjrtr/media/Smileys/Harry%20Potter/poltergiestani20sample.gif.html*/
+	background: url('http://www.thewinchesterfamilybusiness.com/images/SeasonTen/18-BookoftheDamned/normal_spn1018_1895.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family:  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/*a {
+	text-decoration: none;
+}*/
+
+#header {
+	display: block;
+	/*padding: 1px;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-bottom: 10px;
+	background: white;*/
+	color: white;
+	font-size: 40px;
+	text-align: center; 	
+}
+
+#section {
+	color: white;
+	font-size: 24px;
+	line-height: 22px;
+	text-align: center;
+}
+
+#start {
+	margin-left: 43%;
+	padding: 10px;
+	margin-top: 20px;
+	background-color: grey;
+	border-width: 2px;
+	font-size: 24px;
+}
+
+#restart {
+	margin-left: 50%;
+	padding: 10px;
+	margin-top: 20px;
+	background-color: grey;
+	border-width: 2px;
+	font-size: 24px;
+}
+
+#stop {
+	margin-left: 50%;
+	padding: 10px;
+	margin-top: 20px;
+	background-color: grey;
+	border-width: 2px;
+	font-size: 24px;
+}
+
+.info{
+	background-color: white;
+	margin-left:35%;
+	border: solid;
+	border-width: 5px;
+	border-style: thin;
+	border-color: grey;
+	display: inline-block;
+	padding:100px;
+	width: 40%;
+	margin-top:20px;
+}
+
+.questions{
+	background-color: #FFF8DC;
+	display: block;
+	/*border: solid;*/
+	border-width: 5px;
+	border-color: grey;
+	margin: auto;
+	padding:50px;
+	width:40%;
+	margin-top:20px;
+}
+
+#question {
+	font-size: 30px;
+	font-family:  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#timerem{
+	font-size: 25px;
+}
+
+.btn {
+	background-color: grey;
+	border: solid white;
+	color: black;
+	border-width: 5px;
+	padding: 20px;
+}
+
+.btnChoice {
+	background-color: grey;
+	color: white;
+	display: block;
+	margin: auto;
+	width: 10%;
+	border: solid;
+	border-width: 2px;
+	padding: 10px;
+	font-size: 24px;
+}
+
+.clear {
+	clear: both;
+}
+
+#footer {
+	clear:  both;
+	display: block;
+	padding: 10px;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	background: #777;
+	color: white;
+	text-align: center;
+}

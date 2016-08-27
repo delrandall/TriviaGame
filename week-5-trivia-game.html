@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Week 5 Trivia Game</title>
+    <!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+  </head>
+
+  <body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <!--<script type="text/javascript" src='assets/javascript/jquery-3.1.0.js'></script>-->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+    <!--<div id="container">-->
+    <div id="header">
+      <h1><strong>Literary Trivia!</strong></h1>
+    </div>
+    <div id="section">
+      <ul style="list-style-type: none;">
+        <li>You will have a selection of multiple choice answers for each question.</li>
+        <p></p>
+        <li>The game ends with the time runs out.</li>
+        <p></p>
+        <li>The last screen will reveal the number of questions that you answered correctly and incorrectly.</li>
+        <p></p>
+      </ul> 
+    </div>   
+
+    <button id="start" type="button" class="btn btn-primary"><strong>Start</strong></button>
+    <button id="restart" type="button" class="btn btn-primary"><strong>Try Again</strong></button>
+    <!--<button id="stop" type="button" class="btn btn-primary"><strong>Stop</strong></button>-->
+
+    <div class="questions">
+      <p id='timerem'> Time remaining: 30 </p>
+      <p id="question"></p>
+
+      <div id="board">
+        <div id="question" colspan="2"></div>
+        <div class="answers" id="1"></div>
+        <div class="answers" id="2"></div>
+        <div class="answers" id="3"></div>
+        <div class="answers" id="4"></div>
+      </div>
+
+      <div class="play">
+        <div class="questions"></div>
+      </div>
+
+
+
+<!--<form>
+<input type="radio" name="browser" onclick="check(this.value)" value="Internet Explorer">Internet Explorer<br>
+<input type="radio" name="browser" onclick="check(this.value)" value="Firefox">Firefox<br>
+<input type="radio" name="browser" onclick="check(this.value)" value="Opera">Opera<br>
+<input type="radio" name="browser" onclick="check(this.value)" value="Google Chrome">Google Chrome<br>
+<input type="radio" name="browser" onclick="check(this.value)" value="Safari">Safari<br>
+<br>
+Your favorite browser is: <input type="text" id="answer" size="20">
+</form>
+<form action="demo_form.asp">
+  <label for="male">Male</label>
+  <input type="radio" name="gender" id="male" value="male"><br>
+  <label for="female">Female</label>
+  <input type="radio" name="gender" id="female" value="female"><br>
+  <label for="other">Other</label>
+  <input type="radio" name="gender" id="other" value="other"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<label for="349">What is my middle name?</label>
+<br>
+<input id="349" type="radio" value="1" name="349">Abe
+<br>
+<input id="349" type="radio" value="2" name="349">Andrew
+<br>
+<input id="349" type="radio" value="3" name="349">Andre
+<br>
+<input id="349" type="radio" value="4" name="349">Anderson
+<br>-->
+
+
+      <div class="choices"> 
+        <div>
+          <button class="btnChoice" id="1"> A <div class=answers></div></button>
+
+        
+            
+            <p></p>
+        </div> 
+        <div>  
+          <button class="btnChoice" id="2"> B <div class=answers></div></button>
+
+          <p></p>
+        </div> 
+        <div >  
+          <button class="btnChoice" id="3"> C <div class=answers></div></button>
+          <p></p>
+        </div> 
+        <div >  
+          <button class="btnChoice" id="4"> D <div class=answers></div></button>
+          <p></p>
+        </div>  
+      </div>
+    </div>
+    <div id="footer">
+        &copy 2016 Del Randall
+    </div>
+  </body>
+</html>
